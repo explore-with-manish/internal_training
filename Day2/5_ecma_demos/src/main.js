@@ -9,5 +9,5 @@
 // import './1_datatypes/4_datatypes';
 // import './1_datatypes/5_es6_symbol';
 
-// import './2_functions/1_cr_fns'
-import './2_functions/2_fn_parameters'
+import './2_functions/1_cr_fns';
+// import './2_functions/2_fn_parameters'

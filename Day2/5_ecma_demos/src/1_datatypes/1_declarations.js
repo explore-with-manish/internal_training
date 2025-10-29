@@ -1,8 +1,8 @@
 'use strict'
 // console.log("Hello from declarations.js file!");
 
-// a = 10;
-// console.log("a is:", a);
+a = 10;
+console.log("a is:", a);
 
 // ------------------------- Hoisting
 // Hoisting - Hoisting is JavaScript Runtime's default behavior of moving declarations to the top before execution
@@ -70,13 +70,13 @@
 // test();
 // console.log("Outside test(), a is:", a);
 
-var i = "Hello";
-console.log("Before, i is:", i);
+// var i = "Hello";
+// console.log("Before, i is:", i);
 
-(function () {
-    for (var i = 0; i < 5; i++) {
-        console.log("Inside loop, i is:", i);
-    }
-})();
+// (function () {
+//     for (var i = 0; i < 5; i++) {
+//         console.log("Inside loop, i is:", i);
+//     }
+// })();
 
-console.log("After, i is:", i);
+// console.log("After, i is:", i);
