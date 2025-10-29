@@ -1,0 +1,28 @@
+{
+  "name": "webpack-build",
+  "version": "1.0.0",
+  "description": "Testing Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "set NODE_ENV=production&&webpack"
+  },
+  "dependencies": {
+    "core-js": "^3.45.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "chalk": "^4.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.4",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  }
+}

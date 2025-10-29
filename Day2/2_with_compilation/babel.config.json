@@ -1,0 +1,16 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage",
+                "targets": {
+                    "ie": 11,
+                    // "edge": 16,
+                    // "firefox": 67
+                },
+                "corejs": "3.45.1"
+            }
+        ]
+    ]
+}
