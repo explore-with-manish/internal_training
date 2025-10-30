@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "outDir": "output",
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "lib": [
+            "DOM",
+            "ES2017"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "assets",
+        "output"
+    ]
+}
